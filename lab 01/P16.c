@@ -1,20 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 // Leia um valor inteiro em segundos e imprima-o em horas, minutos e segundos.
 
 int main ()
+
 {
-    double h, min, t;
-    printf("Digite o tempo em segundos:\n");
-    scanf("%lf", &t);
+    int t, d, h, min, restomin, restod, restoh;
 
-    h = t/3600;
-    min = t/60;
+    printf("Digite quantos segundos para converter:\n");
 
-    printf("O valor %.4lf segundos em horas equivale a %.4lf em horas e %.4lf em minutos.\n", t, h, min);
+    scanf("%d", &t);
+
+    d = t / 86400;
+
+    restod = t % 86400;
+
+    h = restod / 3600;
+
+    restoh = restod % 3600;
+
+    min = restoh / 60;
+
+    restomin = restoh % 60;
+
+    printf("%d segundos equivale a %d dias, %d horas, %d minutos e %d segundos.\n", t, d, h, min, restomin);
 
     system("pause");
+
     return 0;
+
 }
