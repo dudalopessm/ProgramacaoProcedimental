@@ -9,7 +9,7 @@ int main () {
     printf("Digite tres valores dos lados de um triangulo:\t");
     scanf("%f %f %f", &A, &B, &C);
 
-    if(A < B + C && B < A + C && C < A + B && A != B && A != C){
+    if(A < B + C && B < A + C && C < A + B && A != B && A != C && B != C){
         printf("O triangulo ABC eh escaleno.\n");
     } else if ((A < B + C && B < A + C && C < A + B) && ((B != C && (A == B || A == C)) || (B == C && A != B && A != C))) {
         printf("O triangulo ABC eh isosceles.\n");
