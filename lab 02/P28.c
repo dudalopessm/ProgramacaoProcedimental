@@ -20,7 +20,7 @@ int main () {
     printf("Digite dois numeros reais:\t");
     scanf("%f %f", &n1, &n2);
 
-    if(o == 1){
+    if (o == 1) {
         s = n1 + n2;
         printf("Sua escolha foi de somar os numeros %.2f e %.2f, que resulta em %.2f.\n", n1, n2, s);
     } else if (o == 2) {
