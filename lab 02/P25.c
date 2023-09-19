@@ -11,7 +11,7 @@ int main () {
 
     if(A < B + C && B < A + C && C < A + B && A != B && A != C){
         printf("O triangulo ABC eh escaleno.\n");
-    } else if (A < B + C && B < A + C && C < A + B && A == B, A != C, B != C || A == C, A != B, B != C) {
+    } else if ((A < B + C && B < A + C && C < A + B) && ((B != C && (A == B || A == C)) || (B == C && A != B && A != C))) {
         printf("O triangulo ABC eh isosceles.\n");
     } else if (A < B + C && B < A + C && C < A + B && A == B && B == C && A == C) {
         printf("O triangulo ABC eh equilatero.\n");
