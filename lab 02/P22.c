@@ -19,5 +19,7 @@ int main () {
     } else {
         printf("O ano %d nao eh bissexto.\n", ano);
     }
+
+    return 0;
     
 }
