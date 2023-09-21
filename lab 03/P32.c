@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Escreva um programa que faça a leitura de vários números inteiros, até que se digite um número negativo. O programa tem que retornar o maior e o menor número lido.
+// Escreva um programa que faça a leitura de vários números inteiros, até que se digite um número negativo. O programa tem que retornar o maior e o menor número lido.
 
 int main () {
 
