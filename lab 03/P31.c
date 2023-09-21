@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Escreva um programa que leia um número inteiro positivo e imprima os 5 primeiros múltiplos de 3 desse número.
+
 int main(void) {
 
     int i, n, resto;
