@@ -6,7 +6,7 @@
 int main () {
 
     float p1, p2;
-    char estado[2];
+    char estado[3];
 
     printf("Digite o preco do produto:\t");
     scanf("%f", &p1);
